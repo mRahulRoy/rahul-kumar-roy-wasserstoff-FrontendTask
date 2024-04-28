@@ -1,0 +1,23 @@
+.switches {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.switches .eventBtn, .switches .collBtn {
+  padding: 10px;
+  min-width: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: #484E56;
+  cursor: pointer;
+  transition: 0.5s all linear;
+  color: white;
+}
+.switches .collBtn {
+  margin-left: -20px;
+  background-color: #282B30;
+}/*# sourceMappingURL=switch.module.css.map */
