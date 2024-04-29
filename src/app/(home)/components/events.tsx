@@ -32,9 +32,9 @@ const Events = () => {
 
 
               {/* qr and buttons */}
-              <div className="mt-[20px] flex justify-between items-end  ">
+              <div className="mt-[20px] flex flex-col gap-5 md:justify-between md:flex-row md:items-end w-full ">
                 <Image alt="qr" src="/qr.png" height={80} width={80} />
-                <button className="bg-gold p-2 font-bold text-xl rounded-lg font-legend ">Join Wishlist</button>
+                <button className="bg-gold w-[150px]  font-bold text-xl rounded-lg p-2 font-legend ">Join Wishlist</button>
               </div>
 
             </div>

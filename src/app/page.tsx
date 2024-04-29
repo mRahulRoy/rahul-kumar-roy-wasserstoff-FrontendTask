@@ -72,16 +72,16 @@ export default function Home() {
 
 
       {/* Main section */}
-      <section className="container m-auto border h-auto bg-main p-4">
-        <div className="flex w-[70%] flex-col md:flex-row  gap-[50px] m-auto ">
-
+      <section className=" md:container m-auto border h-auto bg-main p-2 md:p-4">
+        <div className="flex w-[100%] p-2 md:w-[70%] flex-col md:flex-row  gap-[50px] m-auto ">
+          {/* left container that conatins main carousel */}
           <div className="w-full md:w-1/3">
             <div className="atri-logo flex">
               <Image alt="logo" width={40} height={40} src={"/logos/Astrix Branding.png"} />
               <Image alt="logo" width={100} height={40} src={"/logos/Logo.png"} />
             </div>
             <div className="relative">
-              <Typography className="-mx-10 absolute text-[5rem] text-event-txt font-events font-bold l-0 leading-[60px]">
+              <Typography className="sm:mx-[70px] md:-mx-10 absolute text-[4rem] md:text-[5rem] text-event-txt font-events font-bold l-0 leading-[60px]">
                 ASTR <br /> IX <br /> <br /> COLL  <br /> ECTI <br /> BLE
               </Typography>
 
@@ -111,8 +111,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2  flex  gap-3  h-full">
-            <div className="relative h-screen w-[40px]">
+          {/* right container for Events and Collections */}
+          <div className="w-full md:w-1/2 p-2 flex  gap-3  h-full">
+
+            {/* strip bar */}
+            <div className="hidden relative h-screen w-[20px] md:w-[40px]">
               <p className=" relative origin-left w-[561px] text-center items-center justify-center text-[9px] left-0 overflow-hidden flex gap-3 rotate-90 -mt-[20px] border font-krona bg-light-blue p-3 font-semibold">Event : Oasis Bus tour , JLN Stadium , Delhi  <Image src={"/star.png"} alt="star" height={10} width={10} /> Collection Live : Meta Lives , live on astrix</p>
             </div>
 
