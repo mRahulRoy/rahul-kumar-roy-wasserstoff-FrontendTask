@@ -42,7 +42,7 @@ const images = [
 
 const Collections = () => {
     return (
-        <div className="p-6">
+        <div className="p-1 md:p-6">
             <Typography className="text-legend text-white font-bold">Explore Youre First <br /> Collectible</Typography>
             <div>
                 <h1 className="text-legend font-bold text-5xl mt-[30px] text-white" >Meta <br /> Lives</h1>
@@ -72,7 +72,7 @@ const Collections = () => {
                             <CarouselContent>
                                 {
                                     images?.map((img) => {
-                                        return <CarouselItem className=" md:basis-1/3" key={img.heading} >
+                                        return <CarouselItem className=" md:basis-1/3 " key={img.heading} >
                                             <CollectionCarousel image={img.image} date={img.date} heading={img.heading} />
                                         </CarouselItem>
                                     })

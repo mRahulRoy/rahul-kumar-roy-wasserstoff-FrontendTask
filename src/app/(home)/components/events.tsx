@@ -4,7 +4,7 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <div className="p-6">
+    <div className="p-1 md:p-6">
               <Typography className="text-legend text-white font-bold">Explore Youre First <br /> Event</Typography>
               <div>
                 <h2 className="text-legend font-bold text-4xl mt-[30px] text-white" >Event Name</h2>
