@@ -13,8 +13,6 @@
 
 ## Steps to Run/Build the Project
 
-Provide a step-by-step guide on how to get a development environment running. Include commands where applicable.
-
 ```bash
 git clone https://github.com/mRahulRoy/rahul-kumar-roy-wasserstoff-FrontendTask.git
 cd wasserstoff-FrontendTask
