@@ -1,18 +1,23 @@
 "use client"
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import HeroSection from "./(home)/hero-section";
 import { Typography } from "antd";
 import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
 } from "@/components/ui/carousel"
-import Switch from "./(home)/switch";
-import ImageCard from "./(home)/image-card";
-import Collections from "./(home)/collections";
-import Events from "./(home)/events";
-import { useState } from "react";
+
+// Components Imports
+import HeroSection from "./(home)/components/hero-section";
+import Switch from "./(home)/components/switch";
+import ImageCard from "./(home)/components/image-card";
+import Events from "./(home)/components/events";
+import Collections from "./(home)/components/collections";
+
+
+
 
 // Dummy data for populating in UI
 const users = [
@@ -67,7 +72,7 @@ export default function Home() {
 
 
       {/* Main section */}
-      <section className=" container m-auto border h-auto bg-main p-4">
+      <section className="container m-auto border h-auto bg-main p-4">
         <div className="flex w-[70%] flex-col md:flex-row  gap-[50px] m-auto ">
 
           <div className="w-full md:w-1/3">

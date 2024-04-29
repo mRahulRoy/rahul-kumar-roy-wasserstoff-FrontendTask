@@ -1,6 +1,6 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react'
-import Styles from "../../styles/switch.module.css"
+import React, { useRef, useState } from 'react'
+import Styles from "../../../styles/switch.module.css"
 import { Typography } from 'antd'
 const Switch = ({handleShowEvents}:{handleShowEvents:(val:string)=>void}) => {
     const [selectType, setSelectType] = useState<string | null>("events");
