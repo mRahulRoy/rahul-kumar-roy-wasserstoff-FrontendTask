@@ -60,7 +60,7 @@ export default function Home() {
     {/* This section renders the Navbar */}
       <section className="h-screen">
         <div className="container   p-4 ">
-          //<Image alt="logo" height={"240"} width={240} src={"/Astrix Logo.png"} />
+         {/*  <Image alt="logo" height={"240"} width={240} src={"/Astrix Logo.png"} />  */}
           <Link href="/">
             <Image alt="logo" height={"240"} width={240} src={null} />
           </Link>
