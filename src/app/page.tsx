@@ -62,7 +62,7 @@ export default function Home() {
         <div className="container   p-4 ">
          {/*  <Image alt="logo" height={"240"} width={240} src={"/Astrix Logo.png"} />  */}
           <Link href="/">
-            <Image alt="logo" height={"240"} width={240} src={null} />
+            <Image alt="logo" height={"240"} width={240} src={users[0].images} />
           </Link>
         </div>
         {/* This hero section is the animated component that we see at very first */}
