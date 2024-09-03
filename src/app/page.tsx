@@ -61,7 +61,8 @@ export default function Home() {
       <section className="h-screen">
         <div className="container   p-4 ">
           <Link href="/">
-            <Image alt="logo" height={"240"} width={240} src={"/Astrix Logo.png"} />
+//<Image alt="logo" height={"240"} width={240} src={"/Astrix Logo.png"} />
+            <Image alt="logo" height={"240"} width={240} src={null} />
           </Link>
         </div>
         {/* This hero section is the animated component that we see at very first */}
