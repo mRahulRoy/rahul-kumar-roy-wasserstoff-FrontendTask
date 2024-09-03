@@ -22,7 +22,7 @@ import Collections from "./(home)/components/collections";
 // Dummy data for populating in UI
 const users = [
   {
-    image: "null",
+    image: null,
     location: "Lunar Palace: ",
     feat: "(ft. Kanye west)"
   },
